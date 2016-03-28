@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendButtonAction(sender: AnyObject) {
-        self.sendButton.disableDelayTimer(10, target: self)
+        self.sendButton.disableDelayTimer(5, target: self)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
